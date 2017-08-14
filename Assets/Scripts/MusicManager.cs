@@ -26,7 +26,7 @@ public class MusicManager : MonoBehaviour {
     
 
 
-    public void ChangeVolume(float volume)
+    public void SetVolume(float volume)
     {
         audioSource.volume = volume;
     }
