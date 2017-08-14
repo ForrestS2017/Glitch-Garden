@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Attacker.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\Defender.cs" />
     <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\Scripts\Fox.cs" />
@@ -88,7 +89,10 @@
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\OptionsController.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\SetStartVolume.cs" />
+    <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\Shredder.cs" />
     <Compile Include="Assets\Scripts\Stone.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

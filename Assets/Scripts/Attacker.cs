@@ -4,7 +4,6 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
-
     private float WalkSpeed;
     private GameObject currentTarget;
     private Animator animator;
@@ -21,6 +20,7 @@ public class Attacker : MonoBehaviour {
         {
             animator.SetBool("isAttacking", false);
         }
+        
 	}
 
     private void OnTriggerEnter2D(Collider2D collision)

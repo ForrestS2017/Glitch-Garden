@@ -34,6 +34,6 @@ public class Lizard : MonoBehaviour {
         animator.SetBool("isAttacking", true);
         attacker.Attack(obj);
         
-        Debug.Log("Fox collided with " + collider);
     }
+
 }
