@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Button : MonoBehaviour {
 
@@ -9,8 +10,20 @@ public class Button : MonoBehaviour {
     public GameObject defenderPrefab;
     public static GameObject selectedDefender;
 
+    private Text costText;
+
 	// Use this for initialization
 	void Start () {
+        costText = GetComponentInChildren<Text>();
+        if (!costText)
+        {
+            Debug.LogWarning(name + "No costText!");
+        }
+        else
+        {
+            costText.text = defenderPrefab.GetComponent<Defender>().starCost.ToString();
+        }
+
 
         buttonArray = GameObject.FindObjectsOfType<Button>();
 	}

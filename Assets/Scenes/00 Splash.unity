@@ -600,6 +600,11 @@ Prefab:
       propertyPath: autoLoadNextLevelAfter
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114586542806495924, guid: f92db41e2b89b5e4d847cbb065574f5d,
+        type: 2}
+      propertyPath: SecondsToLoadnextLevel
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f92db41e2b89b5e4d847cbb065574f5d, type: 2}
   m_IsPrefabParent: 0
